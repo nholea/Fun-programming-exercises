@@ -9,7 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class CardSuitTest {
     @Test
     void suit_of_card_is_clubs(){
-        String inputCard = "3♣";
+        String inputCard = "3T";
         String expectedSuit = "clubs";
         CardSuit cardsuit = new CardSuit();
 
