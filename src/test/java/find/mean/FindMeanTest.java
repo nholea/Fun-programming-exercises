@@ -11,11 +11,11 @@ public class FindMeanTest {
 
     @Test
     void get_mean_of_array_numbers(){
-        Integer expectedResult = 37;
+        double expectedResult = 37.375;
         int [] inputArrayNumbers = new int[] { 1, 2, 5, 7, 9 , 54, 125,96};
         FindMean findMean = new FindMean();
 
-        Integer meanResult = findMean.calculateMean(inputArrayNumbers);
+        double meanResult = findMean.calculateMean(inputArrayNumbers);
 
         assertThat(meanResult).isEqualTo(expectedResult);
 
