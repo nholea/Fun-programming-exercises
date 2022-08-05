@@ -27,7 +27,7 @@ public class PluralTest {
     }
 
     @ParameterizedTest
-    @CsvSource(value = {"2, true","3.4, true","7, true","20, true","55.5, true"})
+    @CsvSource(value = {"2, true","3.4, true","7, true","20, true","55.5, true" })
     void if_number_is_greater_than_one_returns_true(float inputNumber, boolean expectedResult){
         Plural plural = new Plural();
 
