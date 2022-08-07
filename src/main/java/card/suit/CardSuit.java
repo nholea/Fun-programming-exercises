@@ -4,14 +4,14 @@ import java.nio.charset.StandardCharsets;
 
 public class CardSuit {
     public String whatCardSuitIs(String inputString) {
-        if (inputString.substring(1,2) == "T")
+        if (inputString.substring(1,2).contentEquals("?"))
             return "clubs";
+        if (inputString.substring(1,2).contentEquals("?"))
+            return "diamonds";
+        if (inputString.substring(1,2).contentEquals("?"))
+            return "hearts";
 
-        return "diamonds";
+        return "spades";
     }
 
-    public static void main(String[] args){
-        String holi = "3T";
-        System.out.println(holi.substring(1,2));
-    }
 }
