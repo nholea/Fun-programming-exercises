@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pair.of.gloves.PairOfGlovesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-08-10T15:04:23" hostname="LAPTOP-9L9VQ1E2" time="0.047">
+  <properties/>
+  <testcase name="if_the_array_is_empty_return_0()" classname="pair.of.gloves.PairOfGlovesTest" time="0.043"/>
+  <testcase name="if_the_array_contains_5_blue_gloves_and_one_purple_return_2_blue_pairs()" classname="pair.of.gloves.PairOfGlovesTest" time="0.001"/>
+  <testcase name="if_the_array_contains_3_red_gloves_1_green_glove_2_blue_gloves_and_one_yellow_glove_return_1_red_pairs_and_2_blue_pairs()" classname="pair.of.gloves.PairOfGlovesTest" time="0.001"/>
+  <testcase name="if_the_array_contains_a_single_glove_return_0()" classname="pair.of.gloves.PairOfGlovesTest" time="0.0"/>
+  <testcase name="if_the_array_contains_two_gloves_with_the_same_color_return_1_red_pair()" classname="pair.of.gloves.PairOfGlovesTest" time="0.001"/>
+  <testcase name="if_the_array_contains_five_gloves_with_the_same_color_return_2_red_pairs()" classname="pair.of.gloves.PairOfGlovesTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

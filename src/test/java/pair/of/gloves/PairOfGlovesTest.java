@@ -52,6 +52,17 @@ public class PairOfGlovesTest {
         assertThat(numberPairGloves).isEqualTo(expectedNumberPairGloves);
     }
 
+    @Test
+    void if_the_array_contains_5_blue_gloves_and_one_purple_return_2_blue_pairs(){
+        String[] inputGloves = new String[] {"blue", "blue", "blue", "blue", "blue", "purple"};
+
+        String expectedNumberPairGloves = "2 (2 blue pairs)";
+        PairOfGloves pairOfGloves = new PairOfGloves();
+
+        String numberPairGloves = pairOfGloves.getNumberPairGloves(inputGloves);
+        assertThat(numberPairGloves).isEqualTo(expectedNumberPairGloves);
+    }
+
 
 
     @Test
