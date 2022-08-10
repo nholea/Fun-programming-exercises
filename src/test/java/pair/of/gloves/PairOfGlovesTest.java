@@ -39,4 +39,18 @@ public class PairOfGlovesTest {
 
         assertThat(numberPairGloves).isEqualTo(expectedNumberPairGloves);
     }
+
+
+    @Test
+    void if_the_array_contains_five_gloves_with_the_same_color_return_2(){
+        String[] inputGloves = new String[]{"red", "red", "red", "red", "red"};
+        int expectedNumberPairGloves = 2;
+        PairOfGloves pairOfGloves = new PairOfGloves();
+
+        int numberPairGloves = pairOfGloves.getNumberPairGloves(inputGloves);
+
+        assertThat(numberPairGloves).isEqualTo(expectedNumberPairGloves);
+    }
 }
+
+
