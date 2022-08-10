@@ -27,7 +27,7 @@ public class PairOfGloves {
             }
         }
 
-        return pairGlovesCount/ 2+ " (" +String.join(" + ", numberPairGloves)+ ")";
+        return pairGlovesCount/ 2 + " (" +String.join(" + ", numberPairGloves)+ ")";
     }
 
 }
